@@ -1,0 +1,43 @@
+.squads {
+    position: absolute;
+    transform: rotate(45deg);
+    width: 150px;
+    height: 150px;
+    border: none;
+}
+
+.s1 {
+    top: 250px;
+    left: 100px;
+    background-color: crimson;
+}
+
+.s2 {
+    top: 150px;
+    left: 550px;
+    background-color: orange;
+}
+
+.s3 {
+    top: 250px;
+    left: 400px;
+    background-color: yellow;
+}
+
+.s4 {
+    top: 400px;
+    left: 550px;
+    background-color: purple;
+}
+
+.s5 {
+    top: 450px;
+    left: 300px;
+    background-color: blue;
+}
+
+.s6 {
+    top: 450px;
+    left: 50px;
+    background-color: green;
+}

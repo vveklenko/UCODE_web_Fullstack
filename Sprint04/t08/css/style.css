@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.btn {
+    width: 100%;
+    height: 150px;
+}
+
+#count {
+    margin-left: 520px;
+    margin-top: 50px;
+    width: 320px;
+    height: 60px;
+    background: rgb(4, 132, 244);
+    color: white;
+    font-size: 27px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+#number {
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 320px;
+    height: 60px;
+    background: rgb(4, 132, 244);
+    color: white;
+    font-size: 27px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+#replace {
+    position: absolute;
+    margin-right: 50px;
+    margin-left: 520px;
+    margin-top: 50px;
+    width: 320px;
+    height: 60px;
+    background: rgb(4, 132, 244);
+    color: white;
+    font-size: 27px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.text_form {
+    padding: 20px;
+    padding-top: 40px;
+    margin-top: 30px;
+    width: 93%;
+    height: 630px;
+    margin-left: 2%;
+    background: rgb(216, 213, 213);
+    font-size: 27px;
+}
+
+#string {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 98%;
+    height: 330px;
+    font-size: 20px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+}
+
+#word {
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 98%;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+}
+
+#rofl {
+    padding-top: 13px;
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 98%;
+    padding-bottom: 13px;
+    font-size: 20px;
+    border-radius: 7px;
+    background: white;
+}
+
+.history {
+    padding: 20px;
+    padding-top: 40px;
+    margin-top: 30px;
+    width: 93%;
+    margin-left: 2%;
+    background: rgb(216, 213, 213);
+    font-size: 27px;
+}

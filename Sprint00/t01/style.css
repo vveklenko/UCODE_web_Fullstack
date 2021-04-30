@@ -1,0 +1,59 @@
+img {
+    height: 120px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border: 2px solid whitesmoke;
+}
+
+td {
+    text-align: center;
+}
+
+#head {
+    background-color: black;
+    color: #e1e1e1;
+    font-size: 14;
+}
+
+#time_stone {
+    background-color: green;
+    color: black;
+    font-size: 14;
+}
+
+#power_stone {
+    background-color: rgb(89, 75, 160);
+    color: black;
+    font-size: 14;
+}
+
+#soul_stone {
+    background-color: orange;
+    color: black;
+    font-size: 14;
+}
+
+#space_stone {
+    background-color: blue;
+    color: black;
+    font-size: 14;
+}
+
+#mind_stone {
+    background-color: yellow;
+    color: black;
+    font-size: 14;
+}
+
+#reality_stone {
+    background-color: red;
+    color: black;
+    font-size: 14;
+}

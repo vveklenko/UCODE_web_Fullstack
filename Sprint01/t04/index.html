@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 align="center">HTML</h1>
+    <h2 align="center">BLOCK ELEMENTS</h2>
+    <div class="html">
+        <div class="block"><p>div<br>
+            Used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript. <br>
+            &lt;div&gt;...&lt;/div&gt;
+        </p></div>
+        <div class="block"><p>h1<br>
+            Element defines a large heading <br>
+            &lt;h1&gt;Title&lt;/h1&gt;<br>
+            <h1>Title</h1>    
+        </p></div>
+        <div class="block"><p>p<br>
+            Element defines a paragraph <br>
+            &lt;p&gt;...&lt;/p&gt;<br>
+            <p>Paragraph</p>
+        </p></div>
+        <div class="block"><p>a<br>
+            Defined HTML links<br>
+            &lt;a href="link"&gt;...&lt;/a&gt;
+        </p></div>
+        <div class="block"><p>img<br>
+            defined HTML images<br> 
+            The source file (src), alternative text (alt), width, and height are provided as attributes: <br>
+            &lt;img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"&gt;
+        </p></div>
+        <div class="block"><p>br<br>
+            The tag defines a line break, and is an empty element without a closing tag. <br>
+            &lt;p&gt;This is a &lt;br&gt; paragraph with a line break.&lt;/p&gt; <br>
+            This is a <br> paragraph with a line break.
+        </p></div>
+        <div class="block"><p>!DOCTYPE html<br>
+            The declaration defines that this document is an HTML5 document. <br>
+            &lt;!DOCTYPE html&gt;
+        </p></div>
+        <div class="block"><p><p>html<br>
+            The element is the root element of an HTML page <br>
+            &lt;html&gt;...&lt;/html&gt;
+        </p></p></div>
+        <div class="block"><p>footer<br>
+            Specifies the trailing area (footer) of o document or section<br>
+            &lt;footer&gt;content&lt;/footer&gt;
+        </p></div>
+        <div class="block"><p>main<br>
+            Specifies the main content<br>
+            &lt;main&gt;&lt;/main&gt;
+        </p></div>
+    </div>
+    <h1 align="center">CSS</h1>
+    <div class="html">
+        <div class="block"><p>color<br>
+            Specifies the color of the element's text.<br>
+            color: red <br>
+            <span style="color: red;">Text</span>
+        </p></div>
+        <div class="block"><p>font-size<br>
+            Specifies the size of the font.<br>
+            font-size: 60px;<br>
+            <span style="font-size: 60px;">Text</span>   
+        </p></div>
+        <div class="block"><p>background-color<br>
+            Specifies the color of the background.<br>
+            background-color: red;<br>
+            <span style="background-color: red;">Text</span>
+        </p></div>
+        <div class="block"><p>font-weight<br>
+            Specifies the weight of the font.<br>
+            font-weight: bold;<br>
+            <span style="font-weight: bold;">Text</span>
+        </p></div>
+        <div class="block"><p>font-style<br>
+            Specifies the style of the font.<br>
+            font-style: italic;<br>
+            <span style="font-style: italic;">Text</span>
+        </p></div>
+        <div class="block"><p>height<br>
+            Specifies the height.<br>
+            height: 50px;<br>
+            <span style="height: 50px;">Text</span>
+        </p></div>
+        <div class="block"><p>width<br>
+            Specifies the width.<br>
+            width: 50px;
+        </p></div>
+        <div class="block"><p><p>padding<br>
+            Specifies the padding.<br>
+            padding: 20px;<br>
+            <span style="padding: 20px;">Text</span>
+        </p></p></div>
+        <div class="block"><p>font-family<br>
+            Specifies the prioritized list of one or more font family names and / or a common font name for the selected element.<br>
+            font-family: cursive;<br>
+            <span style="font-family: cursive;">Text</span>
+        </p></div>
+        <div class="block"><p>text-align<br>
+            Property is used to set the horizontal alignment of a text.<br>
+            text-align: center;<br>
+            </p>
+            <p align="center">Text</p></div>
+    
+    </div>
+    <h1 align="center">PROTOCOLS</h1>
+    <div class="html">
+        <div class="pblock"><p>HTTP <br>
+            <br>
+            HTTP defines a set of request methods to indicate the desired action to be performed for a given resource. Although they can also be nouns, these request methods are sometimes referred to as HTTP verbs. Each of them implements a different semantic, but some common features are shared by a group of them: e.g. a request method can be safe, idempotent, or cacheable. <br>
+            <br>
+            Request Methods <br>
+            <br>
+            GET – requests a representation of the specified resource. Requests using GET should only retrieve data.<br>
+            POST – used to submit an entity to the specified resource, often causing a change in state or side effects on the server.<br>
+            HEAD – used to submit an entity to the specified resource, often causing a change in state or side effects on the server.<br>
+            PUT – replaces all current representations of the target resource with the request payload.<br>
+            DELETE – deletes the specified resource.<br>
+            CONNECT – establishes a tunnel to the server identified by the target resource.<br>
+            OPTIONS – used to describe the communication options for the target resource.<br>
+            TRACE – performs a message loop-back test along the path to the target resource.<br>
+            PATCH – used to apply partial modifications to a resource.<br>
+            <br>
+            Responce Status Codes Classes<br>
+            <br>
+            100 – 199 – Informational responses.<br>
+            200 – 299 – Successful responses.<br>
+            300 – 399 – Redirects.<br>
+            400 – 499 – Client errors.<br>
+            500 – 599 – Server errors.<br>
+        </p></div>
+        <div class="pblock"> HTTPS<br>
+            <br>
+            HTTPS is an encrypted version of the HTTP protocol. It uses SSL or TLS to encrypt all communication between a client and a server. This secure connection allows clients to safely exchange sensitive data with a server, such as when performing banking activities or online shopping. <br>
+            <br>
+            Request Methods <br>
+            <br>
+            GET – requests a representation of the specified resource. Requests using GET should only retrieve data.<br>
+            POST – used to submit an entity to the specified resource, often causing a change in state or side effects on the server.<br>
+            HEAD – used to submit an entity to the specified resource, often causing a change in state or side effects on the server.<br>
+            PUT – replaces all current representations of the target resource with the request payload.<br>
+            DELETE – deletes the specified resource.<br>
+            CONNECT – establishes a tunnel to the server identified by the target resource.<br>
+            OPTIONS – used to describe the communication options for the target resource.<br>
+            TRACE – performs a message loop-back test along the path to the target resource.<br>
+            PATCH – used to apply partial modifications to a resource.<br>
+            <br>
+            Responce Status Codes Classes<br>
+            <br>
+            100 – 199 – Informational responses.<br>
+            200 – 299 – Successful responses.<br>
+            300 – 399 – Redirects.<br>
+            400 – 499 – Client errors.<br>
+            500 – 599 – Server errors.  <br>
+        </p></div>
+        <div class="pblock"><p>DNS<br>
+            <br>
+            DNS is a hierarchical and decentralized naming system for Internet connected resources. DNS maintains a list of domain names along with the resources, such as IP addresses, that are associated with them. <br>
+            <br>
+            A – The A-record is the most basic and the most commonly used DNS record type. It is used to translate human friendly domain names such as "www.example.com" into IP-addresses such as 23.211.43.53 (machine friendly numbers).<br>
+            AAAA – An AAAA-record is used to specify the IPv6 address for a host (equivalent of the A-record type for IPv4). IPv6 is the future replacement for the current IP address system (also known as IPv4).<br>
+            ALIAS – ALIAS-records are virtual alias records resolved by Simple DNS Plus at at the time of each request - providing "flattened" (no CNAME-record chain) synthesized records with data from a hidden source name. This can be used for different purposes - including solving the classic problem with CNAME-records at the domain apex (for the zone name / for "the naked domain").<br>
+            CNAME – CNAME-records are domain name aliases. Computers on the Internet often performs multiple roles such as web-server, ftp-server, chat-server etc. To mask this, CNAME-records can be used to give a single computer multiple names (aliases).<br>
+            MX – MX-records are used to specify the e-mail server(s) responsible for a domain name. Each MX-record points to the name of an e-mail server and holds a preference number for that server. If a domain name is handled by multiple e-mail servers (for backup/redundancy), a separate MX-record is used for each e-mail server, and the preference numbers then determine in which order (lower numbers first) these servers should be used by other e-mail servers.<br>
+        </p></div>
+        <div class="pblock"><p>IP<br>
+            <br>
+            An IP address is a number assigned to every device connected to a network that uses the Internet protocol. "IP address" typically still refers to 32-bit IPv4 addresses until IPv6 is deployed more broadly.<br>
+            Find the IP address of a website on Mac <br>
+            <br>
+            Click on the spotlight icon.<br>
+            Type Network Utility.<br>
+            Double click on the Network Utility.<br>
+            Tap Traceroute.<br>
+            Enter your website address.<br>
+            Click on Trace.<br>
+        </p></div>
+    
+    </div>
+</body>
+
+</html>
+
+
+

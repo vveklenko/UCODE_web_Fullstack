@@ -1,0 +1,92 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 1366px){
+    div{
+        border: 1px solid grey;
+        border-radius: 10px;
+        padding: 20px;
+        display: grid;
+        grid-template-rows: 28% 24% 48%;
+        grid-template-columns: 20% 20% 5% 8% 14% 6% 27%;  
+        grid-template-areas: 
+        "img1 img1 img1 img2 img2 img2 img2"
+        "img3 img3 img4 img4 img4 img4 img5"
+        "img6 img7 img7 n img8 img9 img9";
+    }   
+}
+
+@media screen and (max-width: 1366px) and (min-width: 640px){
+    div{
+        border: 1px solid grey;
+        border-radius: 10px;
+        padding: 20px;
+        display: grid;
+        grid-template-rows: 14% 14% 12% 12% 24% 24%;
+        grid-template-columns: 23% 10% 21% 13% 8% 6% 5% 5% 9%;
+        grid-template-areas: 
+        "img1 img1 img1 img1 img1 f g h j"
+        "img2 img2 img2 img2 img2 img2 img2 img2 d"
+        "img3 img3 img3 img3 m s u i a"
+        "img4 img4 img4 img5 img5 img5 img5 img5 img5"
+        "img6 img6 img7 img7 img7 img7  r t y"
+        "img8 img9 img9 img9 img9 q w e n";
+    }
+}
+
+@media screen and (max-width: 640px){
+    div{
+        border: 1px solid grey;
+        border-radius: 10px;
+        padding: 20px;
+        display: grid;
+        grid-template-rows: 13% 13% 11% 11% 10% 21% 21%;
+        grid-template-columns: 46% 2% 5% 10% 4% 4% 4% 16% 9%;
+        grid-template-areas: 
+        "img1 img1 img1 img1 img1 img1 g v d"
+        "img2 img2 img2 img2 img2 img2 img2 img2 d"
+        "img3 img3 img3 img3 img3 s u i d"
+        "img4 img4 img4 img4 img6 img6 img6 img6 img6"
+        "img5 z x c img6 img6 img6 img6 img6"
+        "img7 img7 img8 img8 img8 img8 img8 e n"
+        "img9 img9 img9 h b q w e n";
+    }
+}
+
+#img1{
+    grid-area: img1;
+}
+
+#img2{
+    grid-area: img2;
+}
+
+#img3{
+    grid-area: img3;
+}
+
+#img4{
+    grid-area: img4;
+}
+
+#img5{
+    grid-area: img5;
+}
+
+#img6{
+    grid-area: img6;
+}
+
+#img7{
+    grid-area: img7;
+}
+
+#img8{
+    grid-area: img8;
+}
+
+#img9{
+    grid-area: img9;
+}

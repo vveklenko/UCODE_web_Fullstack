@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    font-style: bold;
+}
+
+#back {
+    position: absolute;
+    margin-top: 30px;
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+    background-color: lightgray;
+}
+
+#left {
+    position: relative;
+    display: inline-block;
+    width: 10%;
+    height: 450px;
+    background-color: lightgray;
+    color: white;
+    font-size: 50px;
+    bottom: 220px;
+}
+
+#pic {
+    position: relative;
+    display: inline-block;
+    width: 79%;
+    height: 450px;
+    background-color: lightpink;
+}
+
+#right {
+    float: right;
+    width: 10%;
+    height: 450px;
+    background-color: lightgray;
+    color: white;
+    font-size: 50px;
+}
+
+img {
+    height: 450px;
+    width: 100%;
+}

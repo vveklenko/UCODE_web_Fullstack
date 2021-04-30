@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+}
+
+.back_title {
+    height: 80px;
+    background: linear-gradient(90deg, blue, pink, red, purple, black);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.first_button {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 430px;
+    width: 300px;
+    height: 80px;
+    background: gray;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+
+.first_tabs {
+    background: gray;
+    color: black;
+    visibility: hidden;
+}
+
+.third_tabs {
+    background: gray;
+    color: black;
+    visibility: hidden;
+    position: absolute;
+    left: 1034px;
+    width: 250px;
+    height: 320px;
+    margin-top: -80px
+}
+
+.first_button:hover > .first_tabs {
+    visibility: visible;
+}
+
+.first_button:hover {
+    color: black;
+    background: red;
+}
+
+.first_tabs:hover {
+    color: white;
+    background: red;
+}
+
+.second_tabs:hover {
+    background: red;
+    color: white;
+}
+
+.second_button {
+    display: inline-block;
+    margin-top: 30px;
+    width: 300px;
+    height: 80px;
+    background: gray;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    line-height: 80px;
+    margin-left: 734px;
+}
+
+.second_tabs {
+    background: gray;
+    visibility: hidden;
+}
+
+.nedded_button {
+    background: gray;
+    visibility: hidden;
+    
+}
+
+.nedded_button:hover > .third_tabs {
+    visibility: visible;
+    transform: translate(100% - 100%);
+}
+
+.nedded_button:hover {
+    color: white;
+    background: red;
+}
+
+.second_button:hover > .second_tabs {
+    visibility: visible;
+}
+
+.second_button:hover > .nedded_button {
+    visibility: visible;
+}
+
+.second_button:hover {
+    color: black;
+    background: red;
+}
+
+#rofl:hover {
+    background: red;
+    color: white;
+}

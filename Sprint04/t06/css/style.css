@@ -1,0 +1,22 @@
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+#info {
+    width: max-content;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 40px;
+    background: red;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+img {
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+}

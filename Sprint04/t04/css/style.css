@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    font-style: bold;
+}
+
+#back {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 150px;
+    width: 80%;
+    height: 600px;
+    background-color: rgb(165, 162, 162);
+}
+
+#list {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    height: 600px;
+    border: none;
+    border-right: 2px solid white;
+    bottom: 183px;
+}
+
+#film1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    border-left: 5px solid rgb(19, 127, 222);
+    width: calc(90% - 5px);
+    height: 50px;
+}
+
+#film1:hover {
+    border: none;
+    border-left: 5px solid rgb(19, 127, 222);
+    width: calc(90% - 5px);
+}
+
+#film2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    width: 90%;
+    height: 50px;
+}
+
+#film2:hover {
+    border: none;
+    border-left: 5px solid rgb(199, 6, 6);
+    width: calc(90% - 5px);
+}
+
+#film3 {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    width: 90%;
+    height: 50px;
+}
+
+#film3:hover {
+    border: none;
+    border-left: 5px solid purple;
+    width: calc(90% - 5px);
+}
+
+#info {
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    width: 79%;
+    height: 600px;
+    border: none;
+}
+
+img {
+    float: right;
+    padding: 20px;
+}
+
+#name {
+    padding: 20px;
+    font-size: 45px;
+    font-style: bold;
+}
+
+#date {
+    padding: 20px;
+    font-size: 20px;
+}
+
+#actor1 {
+    padding-top: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 15px;
+    background-color: rgb(19, 127, 222);
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+#actor2 {
+    padding-top: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 15px;
+    background-color: rgb(19, 127, 222);
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+#actor3 {
+    padding-top: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 15px;
+    background-color: rgb(19, 127, 222);
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+#description {
+    margin-left: 15px;
+}

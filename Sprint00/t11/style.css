@@ -1,0 +1,39 @@
+h1 {
+    margin-left: 30px;
+    padding-bottom: 50px;
+}
+
+.box {
+    font-size: 1.5em;
+    margin: auto;
+    position: relative;
+    display: flex;
+    width: calc(100% - 200px);
+    background: lightgray;
+    border: 1px solid black;
+    padding: 25px;
+}
+
+.box::before {
+    position: absolute;
+    content: "";
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: calc(100% + 100px);
+    height: 100%;
+    top: -1px;
+    left: -50px;
+    right: 50px;
+}
+
+.box::after {
+    position: absolute;
+    content: "";
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    width: 100%;
+    height: calc(100% + 100px);
+    top: -50px;
+    right: -1px;
+    bottom: 50px;
+}

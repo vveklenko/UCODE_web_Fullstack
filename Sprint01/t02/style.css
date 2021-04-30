@@ -1,0 +1,17 @@
+.hand {
+    width: 250px;
+    height: 450px;
+}
+
+.man {
+    width: 80px;
+    height: 100px;
+}
+
+.hand:hover ~ .f .man:nth-child(odd) {
+    visibility: hidden;
+}
+
+.hand:hover ~ .s .man:nth-child(even) {
+    visibility: hidden;
+}

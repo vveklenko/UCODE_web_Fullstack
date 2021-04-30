@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Upgrade Human</title>
+</head>
+<body>
+    <h1>Upgrade Human</h1>
+    <div class="back">
+        <div>
+            <img src="assets/img/old.jpeg">
+        </div>
+        <div>
+            <br><br><br><br>
+            <p>Firstname: <span id='name'>Alohadance</span></p>
+            <p>Lastname: <span id='lastname'>Коробкин</span></p>
+            <p>Gender: <span id='gender'>male</span></p>
+            <p>Age: <span id='age'>?</span></p>
+            <p>Calories: <span id='calories'>0</span></p>
+
+            <p id="state"></p>
+        </div>
+        <div>
+            <button id="sleep" onclick="human.sleepFor()">Sleep</button>
+            <button id="feed" onclick="human.feed()">Feed</button>
+            <br>
+            <button id="fly" onclick="superhero.fly()">Fly</button>
+            <button id="fight" onclick="superhero.fightWithEvil()">Fight</button>
+            <br>
+            <button id="turn" onclick="human.superhero()">Turn into superhero</button>
+        </div>
+
+    </div>
+</body>
+</html>

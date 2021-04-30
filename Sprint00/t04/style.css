@@ -1,0 +1,52 @@
+img {
+    position: absolute;
+    bottom: 0px;
+    height: 182px;
+    float: left;
+    margin-left: 10px;
+}
+
+span {
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 9px;
+    text-align: right;
+}
+
+#name {
+    text-align: right;
+    color: white;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.alias {
+    margin-right: 50px;
+    margin-top: 60px;
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    font-family: verdana;
+    position: relative;
+    display: inline-block;
+}
+
+#spiderpos {
+    top: 0px;
+    height: 160px;
+}
+
+#captain_america {
+    background: linear-gradient(0deg, #B06AB3, #4568DC);
+}
+
+#spiderman {
+    background: linear-gradient(0deg, #000, #e52d27);
+}
+
+#ironman {
+    background: linear-gradient(0deg, #e52d27, #b31217);
+}
+
+#blackwidow {
+    background: linear-gradient(270deg, #61045F, #000);
+}

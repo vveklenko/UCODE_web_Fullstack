@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+}
+
+#container {
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    background: rgb(45, 44, 44);
+}
+
+#city {
+    width: 100%;
+    text-align: center;
+    color: cornsilk;
+    background: rgb(0, 162, 255);
+}
+
+.day {
+    width: 10%;
+    margin-left: 4%;
+    text-align: center;
+    background-color: rgb(210, 209, 209);
+    border-radius: 20px;
+    height: 250px;
+}
+
+hr {
+    background: rgb(6, 146, 227);
+    height: 2px;
+    border: none;
+}
+
+.degree {
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+#date {
+    background: rgb(87, 184, 216);
+    display: flex;
+    padding-left: 30px;
+}
+
+div {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 1.5em;
+    color: white;
+}
+
+#weather {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 700;
+    color: black;
+}
+
+div:hover {
+    box-shadow: 2px 2px 2px 2px darkgray, -2px 2px 2px 2px darkgray;
+}
